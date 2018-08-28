@@ -8,48 +8,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circ
 x-kinRank: "8"
 x-alexaRank: "15983"
 tags: Tests
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/circleci/apis.md
 specificationVersion: "0.14"
 apis:
-- name: CircleCI Get Project Username Project Build Num Tests
-  x-api-slug: circleci
+- name: CircleCI - Get Project Username Project Build Num Tests
+  x-api-slug: projectusernameprojectbuild-numtests-get
   description: |-
     Provides test metadata for a build
     Note: [Learn how to set up your builds to collect test metadata](https://circleci.com/docs/test-metadata/)
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
   humanURL: http://circleci.com
-  baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/tests
-  tags: Project, Username, Project, Build, Num, Tests
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/circleci/projectusernameprojectbuild-numtests-get-openapi.md
-- name: CircleCI Parameters Project Username Project Build Num Tests
-  x-api-slug: circleci
+- name: CircleCI - Parameters Project Username Project Build Num Tests
+  x-api-slug: projectusernameprojectbuild-numtests-parameters
   description: Parameters project username project build num tests.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
   humanURL: http://circleci.com
-  baseURL: https://circleci.com//api/v1//project/{username}/{project}/{build_num}/tests
-  tags: Parameters, Project, Username, Project, Build, Num, Tests
+  baseURL: https://circleci.com//api/v1
+  tags: Developers, Orchestration, Continuous Integration, Continuous Deployment,
+    SaaS, Technology, Enterprise, API Service Provider, Profiles, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/circleci/projectusernameprojectbuild-numtests-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/circleci/projectusernameprojectbuild-numtests-parameters-openapi.md
-- name: CircleCI
-  x-api-slug: circleci
-  description: CircleCI???s continuous integration and delivery platform makes it
-    easy for teams of all sizes to rapidly build and release quality software at scale.  Build
-    for Linux, macOS, and Android, in the cloud or behind your firewall.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28120-circleci.jpg
-  humanURL: http://circleci.com
-  baseURL: https://circleci.com//api/v1
-  tags: Tests
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/circleci/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://charity.navigator.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://circleci.stack.network
 - type: x-blog
   url: https://circleci.com/blog/
 - type: x-blog-rss

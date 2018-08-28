@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Tests
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Add Repos Owner Repo Hooks Hook Tests
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Hooks Hook Tests
+  x-api-slug: reposownerrepohookshookidtests-post
   description: |-
     Test a push hook.
     This will trigger the hook with the latest push to the current repository
@@ -24,28 +24,24 @@ apis:
     Note: Previously /repos/:owner/:repo/hooks/:id/tes
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/hooks/{hookId}/tests
-  tags: Repos, Owner, Repo, Hooks, Hook, Tests
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/github/reposownerrepohookshookidtests-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/github/reposownerrepohookshookidtests-post-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Tests
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/tests/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog

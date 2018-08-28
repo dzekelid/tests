@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: CircleCI
 x-complete: 1
@@ -49,4 +48,3 @@ paths:
       - Build
       - Num
       - Tests
----
